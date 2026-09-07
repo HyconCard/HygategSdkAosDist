@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kr.co.beinteractive.hygate",
+    "module": "hygateg-sdk",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hygateg-sdk-1.0.2.aar",
+          "url": "hygateg-sdk-1.0.2.aar",
+          "size": 111335,
+          "sha512": "076f162004bbd2892f03687f8d1843261872a6ace1f5431dc3f4e2ea088e118a80d33496c35a62a451c8fb5626d45607c90d4dd3fe43384c05c800e8cabe8d8f",
+          "sha256": "3f0314d1f6ba57277c7174653e80b05e0ade259ec53c1fcdb64d5245b01b43d5",
+          "sha1": "67effd4434513717d4e31602475d1633b45c2073",
+          "md5": "23c4f8e437594c32c75368b9d675954f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hygateg-sdk-1.0.2.aar",
+          "url": "hygateg-sdk-1.0.2.aar",
+          "size": 111335,
+          "sha512": "076f162004bbd2892f03687f8d1843261872a6ace1f5431dc3f4e2ea088e118a80d33496c35a62a451c8fb5626d45607c90d4dd3fe43384c05c800e8cabe8d8f",
+          "sha256": "3f0314d1f6ba57277c7174653e80b05e0ade259ec53c1fcdb64d5245b01b43d5",
+          "sha1": "67effd4434513717d4e31602475d1633b45c2073",
+          "md5": "23c4f8e437594c32c75368b9d675954f"
+        }
+      ]
+    }
+  ]
+}
